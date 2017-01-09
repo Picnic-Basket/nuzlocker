@@ -1,3 +1,5 @@
+import { Types } from './types'
+
 class Pokemon {
 
     private pokeName: string;
@@ -21,4 +23,4 @@ class Pokemon {
     }
 }
 
-    let pidgey = new Pokemon("Pidgey", "nuzlocker\\src\\assets\\pokegen1\\016Pidgey.png", "Normal", "Flying", "Pidgeotto", "Pidgeot", "255", "medium slow");
+    let pidgey = new Pokemon("Pidgey", "nuzlocker\\src\\assets\\pokegen1\\016Pidgey.png", "Types.normal", "Types.normal", "Pidgeotto", "Pidgeot", "255", "medium slow");

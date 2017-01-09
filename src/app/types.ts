@@ -40,3 +40,5 @@ class Types {
         this.fairy = fairy;
     }
 }
+
+export { Types }
