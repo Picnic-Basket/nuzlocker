@@ -6,5 +6,5 @@ import { Component, AfterViewInit, NgZone, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Nuzlocker';
+  title = "Nuzlocker";
 }
