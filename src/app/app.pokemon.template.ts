@@ -1,13 +1,13 @@
 class Pokemon {
 
-    pokeName: string;
-    pokeImage: string;
-    pokeType1: string;
-    pokeType2: string;
-    pokeEvo1: string;
-    pokeEvo2: string;
-    pokeCatch: string;
-    pokeLevel: string;
+    private pokeName: string;
+    private pokeImage: string;
+    private pokeType1: string;
+    private pokeType2: string;
+    private pokeEvo1: string;
+    private pokeEvo2: string;
+    private pokeCatch: string;
+    private pokeLevel: string;
 
     constructor(name1: string, image1: string, type1: string, type2: string, evo1: string, evo2: string, catch1: string, level1: string) {
         this.pokeName = name1;
