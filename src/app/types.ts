@@ -1,23 +1,23 @@
 class Types {
 
-    private normal: string;
-    private fighting: string;
-    private flying: string;
-    private poison: string;
-    private ground: string;
-    private rock: string;
-    private bug: string;
-    private ghost: string;
-    private steel: string;
-    private fire: string;
-    private water: string;
-    private grass: string;
-    private electric: string;
-    private psychic: string;
-    private ice: string;
-    private dragon: string;
-    private dark: string;
-    private fairy: string;
+    private normal: string = "nuzlocker\\src\\assets\\types\\normal.png";
+    private fighting: string =  "nuzlocker\\src\\assets\\types\\fighting.png";
+    private flying: string = "nuzlocker\\src\\assets\\types\\flying.png";
+    private poison: string = "nuzlocker\\src\\assets\\types\\poison.png";
+    private ground: string = "nuzlocker\\src\\assets\\types\\ground.png";
+    private rock: string = "nuzlocker\\src\\assets\\types\\rock.png";
+    private bug: string = "nuzlocker\\src\\assets\\types\\bug.png";
+    private ghost: string = "nuzlocker\\src\\assets\\types\\ghost.png";
+    private steel: string = "nuzlocker\\src\\assets\\types\\steel.png";
+    private fire: string = "nuzlocker\\src\\assets\\types\\fire.png";
+    private water: string = "nuzlocker\\src\\assets\\types\\water.png";
+    private grass: string = "nuzlocker\\src\\assets\\types\\grass.png";
+    private electric: string = "nuzlocker\\src\\assets\\types\\electric.png";
+    private psychic: string = "nuzlocker\\src\\assets\\types\\psychic.png";
+    private ice: string = "nuzlocker\\src\\assets\\types\\ice.png";
+    private dragon: string = "nuzlocker\\src\\assets\\types\\dragon.png";
+    private dark: string = "nuzlocker\\src\\assets\\types\\dark.png";
+    private fairy: string = "nuzlocker\\src\\assets\\types\\fairy.png";
 
     constructor (normal: string, fighting: string, flying: string, poison: string, ground: string, rock: string, bug: string, ghost: string, steel: string, fire: string, water: string, grass: string, electric: string, psychic: string, ice: string, dragon: string, dark: string, fairy: string) {
         this.normal = normal;
