@@ -1,4 +1,4 @@
-class PokemonTemplate {
+class Pokemon {
 
     pokeName: string;
     pokeType1: string;
@@ -18,8 +18,6 @@ class PokemonTemplate {
         this.pokeLevel = level1;
 
     }
-
-    pokemon() {
-
-    }
 }
+
+    let pidgey = new Pokemon("Pidgey", "Normal", "Flying", "Pidgeotto", "Pidgeot", "255", "medium slow");
