@@ -1,3 +1,30 @@
-<h1>
-  {{title}}
-</h1>
+<div id="sidebar">
+
+  <a [routerLink]="['']" routerLinkActive="active">
+    <div id="logoContainer">
+      <h1>{{ title }}</h1>
+    </div>
+  </a>
+
+  <ul id="mainMenu">
+    <a [routerLink]="['/']">
+      <li>
+        <i class="fa fa-globe"></i> Page 1
+      </li>
+    </a>
+    <a [routerLink]="['/']">
+      <li>
+        <i class="fa fa-globe"></i> Page 2
+      </li>
+    </a>
+    <a [routerLink]="['/']">
+      <li>
+        <i class="fa fa-globe"></i> Page 3
+      </li>
+    </a>
+  </ul>
+
+</div>
+<div id="content">
+  <router-outlet></router-outlet>
+</div>

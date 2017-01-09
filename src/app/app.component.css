@@ -1,0 +1,59 @@
+#sidebar {
+    width:300px;
+    position: fixed;
+    height: 100%;
+    background: #f2f2f2;
+}
+
+#sidebar #logoContainer {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+    transition: background 150ms linear;
+}
+
+#sidebar #logoContainer img {
+    width: 100%;
+}
+
+#sidebar #mainMenu {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar #mainMenu a {
+    text-decoration: none;
+}
+
+#sidebar #mainMenu a li {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    color: #333;
+    box-sizing: border-box;
+    transition: background 150ms linear, color 150ms linear;
+}
+
+#sidebar #mainMenu a:hover li, 
+#sidebar a:hover #logoContainer, 
+#sidebar a.active #logoContainer {
+    background: #333;
+    color: #f2f2f2;
+}
+
+#sidebar #userInfo {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    position: absolute;
+    padding: 20px;
+}
+#sidebar #userInfo button {
+    width: 100%;
+}
+
+#content {
+    width:100%;
+    padding: 10px 10px 10px 300px;
+}
