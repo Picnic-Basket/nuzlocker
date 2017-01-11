@@ -11,6 +11,7 @@ import { ViewPokemonComponent } from './pokemon/view-pokemon/view-pokemon.compon
 
 const appRoutes: Routes = [
   //{ path: "", component: AppComponent }
+  { path: "pokemon/add", component: AddPokemonComponent }
 ];
 
 @NgModule({

@@ -1,3 +1,88 @@
-<p>
-  add-pokemon works!
-</p>
+<div class="col-md-offset-3 col-md-6">
+  <div class="panel dark">
+    <div class="panel-body">
+      <h3>Add Pokemans</h3>
+    </div>
+  </div>
+</div>
+<div class="main-container">
+  <div class="col-md-4">
+    <div class="panel panel-default">
+   	  <div class="panel-body">
+        <div class="input-group">
+          <label for="nationalDexID" class="input-group-addon">Dex No.</label>
+          <input type="number" class="form-control" max="802" min="1" id="nationalDexID">
+        </div>
+   	  </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="panel panel-default">
+   	  <div class="panel-body">
+        <div class="input-group">
+          <label for="name" class="input-group-addon">Name</label>
+          <input type="text" class="form-control" id="name">
+        </div>
+   	  </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="panel panel-default">
+   	  <div class="panel-body">
+        <div class="input-group">
+          <label for="levelRate" class="input-group-addon">Level Rate</label>
+          <select class="form-control" id="levelRate">
+            <option value=0 disabled>Please Select...</option>
+            <option *ngFor="let l of levelRates" value="l.id">{{ l.levelRate }}</option>
+          </select>
+        </div>
+   	  </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+   	  <div class="panel-body">
+        <div class="input-group">
+          <label for="catchRate" class="input-group-addon">Catch Rate</label>
+          <input type="number" class="form-control" min=3 max=255 id="catchRate">
+        </div>
+   	  </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+   	  <div class="panel-body">
+        <div class="input-group">
+          <label for="preevolution" class="input-group-addon">Pre-evolution</label>
+          <input type="number" class="form-control" min=3 max=255 id="preevolution">
+        </div>
+   	  </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+   	  <div class="panel-body">
+        <div class="input-group">
+          <label for="type1" class="input-group-addon">Type 1</label>
+          <select class="form-control" id="type1">
+            <option value=0 disabled>Please Select...</option>
+            <option *ngFor="let t of types" value="t.id">{{ t.typeName }}</option>
+          </select>
+        </div>
+   	  </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+   	  <div class="panel-body">
+        <div class="input-group">
+          <label for="type2" class="input-group-addon">Type 2</label>
+          <select class="form-control" id="type2">
+            <option value=0 disabled>Please Select...</option>
+            <option *ngFor="let t of types" value="t.id">{{ t.typeName }}</option>
+          </select>
+        </div>
+   	  </div>
+    </div>
+  </div>
+</div>

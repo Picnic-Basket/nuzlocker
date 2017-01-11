@@ -6,3 +6,16 @@
 body {
     background: #9CCC65;
 }
+.panel.dark .panel-body {
+    background:#558B2F;
+    text-align: center;
+}
+.panel.dark .panel-body h3 {
+    color: #fff;
+    margin: 0;
+}
+.main-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
