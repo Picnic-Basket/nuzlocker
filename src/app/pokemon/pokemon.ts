@@ -28,4 +28,5 @@ class Pokemon {
         this.type1ID = type1ID;
         this.type2ID = type2ID;
     }
+
 }
